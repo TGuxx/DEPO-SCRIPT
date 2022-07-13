@@ -32,4 +32,6 @@ def main():
        if pixel_check == (IAM_READY_COLOR):
            pyautogui.click(CLICK_POS)
            SEND_NOTIFICATION()
+print("Running depo-mode")        
 main()
+
